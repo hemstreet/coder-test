@@ -1,9 +1,9 @@
 {
   "name": "Alpine with NVM and TypeScript",
-  "image": "alpine:latest",
+  "image": "mcr.microsoft.com/vscode/devcontainers/base:0-focal",
   "features": {
     "ghcr.io/devcontainers/features/nvm:1": {
-      "version": "lts"
+      "version": "16"
     }
   },
   "postCreateCommand": "nvm install --lts && npm install -g typescript",
