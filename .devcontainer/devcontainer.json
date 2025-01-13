@@ -1,8 +1,9 @@
 {
-  "name": "Node.js & TypeScript",
-  "build": {
-    "dockerfile": "Dockerfile"
-  },
+  "name": "Node container",
+  "image": "node:20.18.1-alpine",
+//  "build": {
+//    "dockerfile": "Dockerfile"
+//  },
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   // "forwardPorts": [],
